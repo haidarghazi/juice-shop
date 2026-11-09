@@ -1,0 +1,6 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Unpatched legacy in-memory DB, terisolasi pada lingkungan dev-only'
+        expires: 2026-12-31T00:00:00.000Z
